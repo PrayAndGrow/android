@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.prayandgrow.prayandgrow.PatronsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/loader"
+        android:layout_gravity="center"
+        android:contentDescription="@string/alt_searching_for_patron"
+        android:src="@drawable/patron_searching" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:color/primary_text_dark"
+        android:text="@string/lbl_looking_for_patron"
+        android:id="@+id/loaderText"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/patronListView"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

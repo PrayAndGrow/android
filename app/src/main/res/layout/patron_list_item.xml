@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/two_line_list_item_height"
+    android:minHeight="@dimen/two_line_list_item_height"
+    android:paddingLeft="@dimen/abc_list_item_padding_horizontal_material"
+    android:paddingRight="@dimen/abc_list_item_padding_horizontal_material"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Patron&apos;s name"
+        android:id="@+id/patronName"
+        android:textColor="@color/primary_text_default_material_light"
+        android:textSize="@dimen/abc_text_size_title_material" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Reason why he is here"
+        android:id="@+id/patronReason"
+        android:textColor="@color/secondary_text_default_material_light"
+        android:textSize="@dimen/abc_text_size_subhead_material" />
+</LinearLayout>
